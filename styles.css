@@ -127,7 +127,7 @@ li {
 }
 
 
-.menu__open .menu__backdrop {
+.menu__open, .menu__backdrop {
     visibility: visible; 
     opacity: 1;
 
@@ -245,7 +245,7 @@ HIGHLIGHTS
 }
 
 #highlights:after,
-#highlights:before, {
+#highlights:before {
     background: url('assets/wave.svg');
 content: "";
 position: absolute;
