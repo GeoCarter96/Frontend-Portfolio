@@ -127,7 +127,7 @@ li {
 }
 
 
-.menu__open, .menu__backdrop {
+.menu--open .menu__backdrop {
     visibility: visible; 
     opacity: 1;
 
